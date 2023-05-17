@@ -27,7 +27,9 @@ export const MenuItem: FC<MenuItemProps> = ({
             h-[15rem]
             object-cover 
             object-center"
-               src={imagePath} />
+               src={imagePath}
+               alt={title}
+            />
             <span className="
             absolute
             bottom-1.5
